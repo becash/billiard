@@ -1,0 +1,6 @@
+import  database,  
+	from file liliard.sql
+set parameters in config.ini
+
+RUN Red ball.exe
+

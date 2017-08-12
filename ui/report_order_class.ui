@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1022</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Orders</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>1000</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>650</width>
+     <height>300</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1000</width>
+     <height>600</height>
+    </size>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>0</y>
+      <width>1021</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1051</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="toolTip">
+     <string notr="true"/>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+    <column>
+     <property name="text">
+      <string notr="true">ID</string>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="whatsThis">
+      <string notr="true"/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>UUID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Table</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string notr="true">Operator</string>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="whatsThis">
+      <string notr="true"/>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string notr="true">From</string>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="whatsThis">
+      <string notr="true"/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>To</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Payed</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Price 1</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Price 2</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Price 3</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Brutto</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Card</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Percent</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Discount</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Netto</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string notr="true">Sync</string>
+     </property>
+     <property name="toolTip">
+      <string notr="true"/>
+     </property>
+     <property name="whatsThis">
+      <string notr="true"/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>State</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignRight|AlignVCenter</set>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>162</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="bClose">
+      <property name="text">
+       <string>Close</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="bChangeStatus">
+      <property name="text">
+       <string>Change Status</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

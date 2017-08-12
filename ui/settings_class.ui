@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>688</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Settings</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>681</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>300</width>
+     <height>300</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1600</width>
+     <height>800</height>
+    </size>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNone</set>
+   </property>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>656</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="tableUUID"/>
+     </item>
+     <item row="15" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Time periods</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="2">
+      <widget class="QLineEdit" name="emailReceiver"/>
+     </item>
+     <item row="17" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Roll printer exemplars</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="24" column="2">
+      <widget class="QLineEdit" name="kkmNomerNalogovoiGruppi"/>
+     </item>
+     <item row="17" column="2">
+      <widget class="QLineEdit" name="rollPrinterExemplars"/>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_20">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Fiscal code</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="23" column="2">
+      <widget class="QLineEdit" name="kkmProductName"/>
+     </item>
+     <item row="18" column="2">
+      <widget class="QLineEdit" name="checkMessage"/>
+     </item>
+     <item row="20" column="0">
+      <widget class="QLabel" name="label_14">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Gmail sender Password</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="0">
+      <widget class="QLabel" name="label_22">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Check message</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QLineEdit" name="fiscalcode"/>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="label_21">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Adress</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QLineEdit" name="adress"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="productUUID"/>
+     </item>
+     <item row="8" column="2">
+      <widget class="QLineEdit" name="companyName"/>
+     </item>
+     <item row="16" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Roll Printer</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Save Order (Days)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="23" column="0">
+      <widget class="QLabel" name="label_17">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>KKM Product name</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="2">
+      <widget class="QLineEdit" name="rollPrinterName"/>
+     </item>
+     <item row="19" column="0">
+      <widget class="QLabel" name="label_13">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Gmail sender EMAIL</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="0">
+      <widget class="QLabel" name="label_15">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Rport receiver EMAIL</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="22" column="0">
+      <widget class="QLabel" name="label_16">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>KKM path&amp;filename</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="24" column="0">
+      <widget class="QLabel" name="label_18">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>KKM номер налоговой группы</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="25" column="2">
+      <widget class="QLineEdit" name="kkmNomerSectii"/>
+     </item>
+     <item row="20" column="2">
+      <widget class="QLineEdit" name="emailSenderPass">
+       <property name="inputMethodHints">
+        <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText</set>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLineEdit" name="saveDays">
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="toolTip">
+        <string notr="true"/>
+       </property>
+       <property name="statusTip">
+        <string notr="true"/>
+       </property>
+       <property name="whatsThis">
+        <string notr="true"/>
+       </property>
+       <property name="accessibleName">
+        <string notr="true"/>
+       </property>
+       <property name="inputMask">
+        <string notr="true"/>
+       </property>
+       <property name="maxLength">
+        <number>4</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Triobar Table (TableNo)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Company name</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="2">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Per 1:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="linePeriod1">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+         <property name="inputMask">
+          <string comment="00"/>
+         </property>
+         <property name="maxLength">
+          <number>2</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Per 2:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="linePeriod2">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+         <property name="inputMask">
+          <string comment="00"/>
+         </property>
+         <property name="maxLength">
+          <number>2</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>Per 3:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="linePeriod3">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+         <property name="inputMask">
+          <string comment="00"/>
+         </property>
+         <property name="maxLength">
+          <number>2</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="19" column="2">
+      <widget class="QLineEdit" name="emailSenderName"/>
+     </item>
+     <item row="22" column="2">
+      <widget class="QLineEdit" name="kkmPath_FileName"/>
+     </item>
+     <item row="25" column="0">
+      <widget class="QLabel" name="label_19">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>KKM номер секции</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="22" column="3">
+      <widget class="QCheckBox" name="kkmZreport">
+       <property name="text">
+        <string>KKM Z report on shift close</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="3">
+      <widget class="QPushButton" name="crearOldOrders">
+       <property name="text">
+        <string>Clear old orders</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="3">
+      <widget class="QCheckBox" name="autoclearStart">
+       <property name="text">
+        <string>Clear older order, on application start</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="3">
+      <widget class="QCheckBox" name="shiftFunctions">
+       <property name="text">
+        <string>Enable  Shifts Function</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QCheckBox" name="receivePayments">
+       <property name="text">
+        <string>Accept  payments</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QCheckBox" name="triobarSyncCheck">
+       <property name="text">
+        <string>Triobar Sync Check</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QCheckBox" name="triobarSyncShifts">
+       <property name="text">
+        <string>Triobar Sync Shifts</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Triobar Product  UUID</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="25" column="3">
+      <widget class="QCheckBox" name="dbClear">
+       <property name="text">
+        <string>new DB</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="3">
+      <widget class="QCheckBox" name="extendedShiftReportPrint">
+       <property name="text">
+        <string>Extended Shift report to printer</string>
+       </property>
+      </widget>
+     </item>
+     <item row="19" column="3">
+      <widget class="QCheckBox" name="extendedShiftReportMail">
+       <property name="text">
+        <string>Extendet Shift report to mail</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="bSave">
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>productUUID</tabstop>
+  <tabstop>tableUUID</tabstop>
+  <tabstop>saveDays</tabstop>
+  <tabstop>companyName</tabstop>
+  <tabstop>fiscalcode</tabstop>
+  <tabstop>adress</tabstop>
+  <tabstop>linePeriod1</tabstop>
+  <tabstop>linePeriod2</tabstop>
+  <tabstop>linePeriod3</tabstop>
+  <tabstop>rollPrinterName</tabstop>
+  <tabstop>rollPrinterExemplars</tabstop>
+  <tabstop>checkMessage</tabstop>
+  <tabstop>emailSenderName</tabstop>
+  <tabstop>emailSenderPass</tabstop>
+  <tabstop>emailReceiver</tabstop>
+  <tabstop>kkmPath_FileName</tabstop>
+  <tabstop>kkmProductName</tabstop>
+  <tabstop>kkmNomerNalogovoiGruppi</tabstop>
+  <tabstop>kkmNomerSectii</tabstop>
+  <tabstop>bSave</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

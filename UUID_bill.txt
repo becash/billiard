@@ -1,0 +1,29 @@
+ЯРНК
+BILL
+f43109c9-2088-11e5-a1b0-b8975a807b07
+26
+
+
+
+онкэгнбюрекэ
+Billiard Operator
+a8a5dc6e-23bb-11e5-9c37-b8975a807b07
+
+pass: 1230
+
+
+TUDOR
+bbe583e5-f7d8-11e4-93ab-b8975a807b07
+2222
+
+
+
+ANDRU
+ba7366bc-f7dc-11e4-93ab-b8975a807b07
+5858
+
+
+
+PRODUCT
+Billiard game
+f43109c8-2088-11e5-a1b0-b8975a807b07
